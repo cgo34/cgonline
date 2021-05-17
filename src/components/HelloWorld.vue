@@ -1,8 +1,20 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <h2>My Hello World sec</h2>
     <h2>Essential Links</h2>
+    <p>
+      <router-link to="/test">test</router-link>
+    </p>
     <ul>
+      <li>
+        <a
+          href="https://vuejs.org"
+          target="_blank"
+        >
+          Core Docs
+        </a>
+      </li>
       <li>
         <a
           href="https://vuejs.org"
